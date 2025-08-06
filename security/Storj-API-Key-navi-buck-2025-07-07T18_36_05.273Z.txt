@@ -1,0 +1,5 @@
+Satellite Address:
+12EayRS2V1kEsWESU9QMRseFhdxYxKicsiFmxrsLZHeLUtdps3S@us1.storj.io:7777
+
+API Key:
+15XZimqb9NMgCKfAqJofGbwCk5JbFkJxEvbQMX2U77M8iD14Ar3MBEgyYrmG1cmcGczewyX8An4pAyeNSiBG5xNoYxPrpJmgXXL6SWYeXoMWxTpdJ7HruLpqiaxPc9hnZmzzmp8Hp
