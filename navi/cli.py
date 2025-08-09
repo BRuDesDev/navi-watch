@@ -1,3 +1,4 @@
+# navi/cli.py
 import click
 from rich import print
 
@@ -6,12 +7,13 @@ def cli():
     print("[bold cyan]NÄVÎ: The Home Sentinel AI[/bold cyan]")
 
 @cli.command()
-def greet():
-    print("Yes sir? Awaiting your command...")
+@click.argument("text", nargs=-1)
+def say(text):
+    """Speak a sentence with Amazon Polly."""
+    from navi.modules.speech.tts import speak
+    msg = " ".join(text) or "Hello from Olivia. This is a test."
+    speak(msg)
 
-@cli.command()
-def wake():
-    print("🎙️ Say 'Hey Navi' to wake...")
-    from navi.modules.speech.wake_word import listen_for_wake_word
-    listen_for_wake_word()
-    print("Yes sir? 👂")
+# existing greet/wake commands...
+if __name__ == "__main__":
+    cli()
