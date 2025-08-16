@@ -1,3 +1,6 @@
+# navi/modules/speech/tts.py
+
+
 import os
 import hashlib
 from pathlib import Path
@@ -13,10 +16,14 @@ try:
 except Exception:
     pass
 
+import re 
+import html
+
 POLLY_VOICE  = os.getenv("POLLY_VOICE", "Olivia")
 POLLY_ENGINE = os.getenv("POLLY_ENGINE", "neural")
 POLLY_REGION = os.getenv("AWS_REGION", "us-east-1")
 POLLY_LANG   = os.getenv("POLLY_LANG", "en-AU")
+
 
 # Cache lives in assets/tts_cache
 CACHE_DIR = asset_path("tts_cache")

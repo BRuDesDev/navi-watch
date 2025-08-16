@@ -1,3 +1,15 @@
+
+# Editor Backups
+*~
+
+# Generated TTS Cache
+assets/tts_cache/
+
+# Ignore all mp3's by default
+*.mp3
+# BUT allow tracked voice db mp3's
+!assets/voice_db/**/*.mp3
+
 # Python
 __pycache__/
 *.pyc
@@ -6,8 +18,8 @@ __pycache__/
 
 # Virtual environments
 .venv/
-env/
-ENV/
+.env
+*.log
 
 # IDEs
 .idea/
