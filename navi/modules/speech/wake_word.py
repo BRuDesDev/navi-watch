@@ -46,7 +46,7 @@ MIC_MUTED = False
 
 # Common "end session" phrases
 STOP_RE = re.compile(
-    r"\b(stop|cancel|nevermind|that'?s all|thanks navi|thank you navi|goodbye)\b",
+    r"\b(stop|cancel|nevermind|that's all|thanks navi|thank you navi|goodbye)\b",
     re.IGNORECASE
 )
 
@@ -69,9 +69,9 @@ def _callback(indata, frames, time_info, status):
 def is_wake_word(text: str) -> bool:
     t = (text or "").lower().strip()
     if not t:
-        return False
+        return False # Function returns False because there is no text
     if any(re.search(rf"\b{re.escape(p)}\b", t) for p in WAKE_PHRASES):
-        return True
+        return True # Return True, we matched text to a wake word
     for phrase in WAKE_PHRASES:
         if fuzz.ratio(phrase, t) >= FUZZ_THRESHOLD:
             print(f"[MATCH] '{t}' ≈ '{phrase}'")
@@ -85,8 +85,8 @@ def _safe_play_sir():
     global MIC_MUTED
     try:
         MIC_MUTED = True
-        # Relative to assets; play_file resolves: assets/voice_db/Olivia/sir.mp3
-        play_file("voice_db/Olivia/sir.mp3")
+        # Relative to assets; play_file resolves: assets/voice_db/Joanna/sir.mp3
+        play_file("voice_db/Joanna/sir.mp3")
     except Exception as e:
         print(f"[Audio] play_file error: {e}")
     finally:
@@ -179,7 +179,7 @@ def listen_for_wake_word():
                         break
 
                     # Ask AI and speak reply (mic muted during TTS)
-                    reply = ask_openai(user_command)
+                    reply = ask_openai(user_command, uid="josh")
                     _safe_speak(reply)
 
                     turns += 1

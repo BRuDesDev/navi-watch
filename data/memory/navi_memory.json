@@ -1,0 +1,58 @@
+{
+  "people": {
+    "josh": {
+      "facts": [
+        {
+          "text": "Likes programming dad jokes.",
+          "source": "voice",
+          "weight": 1.0,
+          "t": 1755449696.4465826
+        }
+      ],
+      "recent_summary": "We're working on developing Navi",
+      "meta": {
+        "room": "office"
+      },
+      "name": "Josh",
+      "updated_at": 1755449696.4475722
+    }
+  },
+  "interactions": [
+    {
+      "uid": "josh",
+      "user": "can you please tell me a joke",
+      "navi": "Sure, Josh! Why don't programmers like nature? It has too many bugs. 😄",
+      "t": 1755451094.8642406
+    },
+    {
+      "uid": "josh",
+      "user": "that's funny naughty thank you doesn't make them",
+      "navi": "Haha, true! Naughty or not, dad jokes have a charm of their own. Need help coming up with one.",
+      "t": 1755451114.5276506
+    },
+    {
+      "uid": "josh",
+      "user": "no thank you i'm good that's off",
+      "navi": "Alright, if you need anything later, just let me know!",
+      "t": 1755451133.1028547
+    },
+    {
+      "uid": "josh",
+      "user": "he knew my my name",
+      "navi": "Ah, sounds like someone's trying to impress you, Josh! What happened.",
+      "t": 1755451837.7588413
+    },
+    {
+      "uid": "josh",
+      "user": "on actually i just wanted to know if you remember my name",
+      "navi": "Hey Josh! Yep, I’ve got your name right here. How's everything going today.",
+      "t": 1755451854.3125312
+    },
+    {
+      "uid": "josh",
+      "user": "everything is great thank you naughty",
+      "navi": "Haha, \"Naughty,\" huh? That's a new one! Glad to hear everything's great, Josh. What's on our agenda today.",
+      "t": 1755451871.1684208
+    }
+  ]
+}
