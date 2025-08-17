@@ -29,7 +29,7 @@ remember_fact(uid="josh", fact="Likes programming dad jokes.")
 set_recent_summary(uid="josh", summary="We're working on developing Navi")
 
 # --- Config (env-friendly) ---
-OPENAI_API_KEY     = os.getenv("OPENAI_API_KEY", "")
+OPENAI_API_KEY     = os.getenv("OPENAI_API_KEY", "")    
 OPENAI_MODEL       = os.getenv("OPENAI_MODEL", "gpt-4o")
 OPENAI_MAX_TOKENS  = int(os.getenv("OPENAI_MAX_TOKENS", "180"))
 OPENAI_TEMP        = float(os.getenv("OPENAI_TEMPERATURE", "0.6"))

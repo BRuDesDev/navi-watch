@@ -53,6 +53,24 @@
       "user": "everything is great thank you naughty",
       "navi": "Haha, \"Naughty,\" huh? That's a new one! Glad to hear everything's great, Josh. What's on our agenda today.",
       "t": 1755451871.1684208
+    },
+    {
+      "uid": "josh",
+      "user": "anyway",
+      "navi": "Hey Josh! What's on your mind today.",
+      "t": 1755453856.876748
+    },
+    {
+      "uid": "josh",
+      "user": "are there any events on the calendar for today",
+      "navi": "I can't access your calendar directly, but you might want to check it to be sure. If there's anything specific you need help with, just let me know!",
+      "t": 1755456838.8432112
+    },
+    {
+      "uid": "josh",
+      "user": "Are there any national holidays today",
+      "navi": "Wow, that's quite a celebration! Imagine all the different cultures and traditions being honored around the world today. It's like a global party! 🎉 Anything in particular you're curious about.",
+      "t": 1755456859.1810038
     }
   ]
 }
