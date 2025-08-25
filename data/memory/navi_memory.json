@@ -26,39 +26,29 @@
     },
     {
       "uid": "josh",
-      "user": "that's funny naughty thank you doesn't make them",
-      "navi": "Haha, true! Naughty or not, dad jokes have a charm of their own. Need help coming up with one.",
+      "user": "that's funny Navi, thank you!",
+      "navi": "Haha, true! Dad jokes have a charm of their own. Need help coming up with one.",
       "t": 1755451114.5276506
     },
     {
       "uid": "josh",
-      "user": "no thank you i'm good that's off",
+      "user": "no thank you i'm good that's all",
       "navi": "Alright, if you need anything later, just let me know!",
       "t": 1755451133.1028547
     },
     {
       "uid": "josh",
-      "user": "he knew my my name",
-      "navi": "Ah, sounds like someone's trying to impress you, Josh! What happened.",
+      "user": "Do you know my name?",
+      "navi": "Well duh... it's Josh of course!",
       "t": 1755451837.7588413
     },
     {
       "uid": "josh",
-      "user": "on actually i just wanted to know if you remember my name",
-      "navi": "Hey Josh! Yep, I’ve got your name right here. How's everything going today.",
-      "t": 1755451854.3125312
-    },
-    {
-      "uid": "josh",
-      "user": "everything is great thank you naughty",
-      "navi": "Haha, \"Naughty,\" huh? That's a new one! Glad to hear everything's great, Josh. What's on our agenda today.",
+      "user": "Everything is great, thank you Navi",
+      "navi": "Glad to hear everything's great, Josh. What's on our agenda today?",
+      "user": "Well, I definitely need to integrate my calendars into your code, so you can answer that one for me."
+      "navi": "Ah, how clever my creator is. Let's ah.. do this..."
       "t": 1755451871.1684208
-    },
-    {
-      "uid": "josh",
-      "user": "anyway",
-      "navi": "Hey Josh! What's on your mind today.",
-      "t": 1755453856.876748
     },
     {
       "uid": "josh",
@@ -66,11 +56,5 @@
       "navi": "I can't access your calendar directly, but you might want to check it to be sure. If there's anything specific you need help with, just let me know!",
       "t": 1755456838.8432112
     },
-    {
-      "uid": "josh",
-      "user": "Are there any national holidays today",
-      "navi": "Wow, that's quite a celebration! Imagine all the different cultures and traditions being honored around the world today. It's like a global party! 🎉 Anything in particular you're curious about.",
-      "t": 1755456859.1810038
-    }
   ]
 }
